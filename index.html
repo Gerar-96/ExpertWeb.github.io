@@ -2,10 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Expert Web- practica</title>
+    <script src="https://kit.fontawesome.com/8879a9303f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="Css/estyles.css" />
+    <meta name="viewport" content="width=device-width, user-escalable=no, initial-scale=1.0, maximum-escale=1.0, minimum-escale=1.0" />
   </head>
   <body>
     <!--menu-->
@@ -16,22 +18,27 @@
           <h1>Expert<b>Web</b></h1>
         </div>
 
-        <div class="menu">
+        <div class="menu" id="show-menu">
           <nav>
             <ul>
               <li><a href="#">Inicio</a></li>
               <li><a href="#">Tutoriales</a></li>
-              <li class="menu-selected">
-                <a href="#" class="text-menu-selected">Blog</a>
-              </li>
+              <li class="menu-selected"><a href="#" class="text-menu-selected">Blog</a></li>
               <li><a href="#">Contacto</a></li>
             </ul>
           </nav>
         </div>
       </div>
+
+      <div id="icon-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
     </header>
 
     <!--portada-->
+
+    <div class="container-all" id="move-content">
 
     <div class="container-cover">
       <div class="container-info-cover">
@@ -157,5 +164,9 @@
       </footer>
 
     </div>
+
+  </div>
+
+  <script src="script.js"></script>
   </body>
 </html>
